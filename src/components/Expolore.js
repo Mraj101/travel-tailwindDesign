@@ -3,7 +3,7 @@ import ExploreImg from "../assets/explore.png";
 
 const Expolore = () => {
   return (
-    <div className="flex items-center justify-center p-12 border-4">
+    <div className="flex items-center justify-center p-16">
       <div className="relative">
         <img src={ExploreImg} alt="explore" />
 

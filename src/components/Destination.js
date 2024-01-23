@@ -9,11 +9,11 @@ import BandarbanImg from "../assets/bandarban.png";
 
 const Destination = () => {
   return (
-    <div className="p-7">
+    <div className="p-12">
       <div className="flex items-center flex-col justify-center">
-        <div>
-          <h1>Choose Your Destination</h1>
-          <p>
+      <div>
+          <h1 className="text-black text-4xl font-bold text-center pb-5">Choose Your Destination</h1>
+          <p className="text-gray-700 text-center ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
             nostrum totam alias, veniam pariatur accusantium tenetur cum cumque
             explicabo ad est beatae neque, facere at. Voluptates et eveniet
@@ -21,8 +21,8 @@ const Destination = () => {
           </p>
         </div>
 
-        <div>
-          <div className="grid grid-cols-2">
+        <div className="flex flex-col gap-3">
+          <div className="grid grid-cols-2 gap-3">
             <div className="col-span-1">
               <img
                 src={MaldivImg}
@@ -40,7 +40,7 @@ const Destination = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-9">
+          <div className="grid grid-cols-9 gap-3">
             <div className=" col-span-3">
               <img
                 src={SrilankaImg}
@@ -53,7 +53,7 @@ const Destination = () => {
               <img
                 src={NorthAmericaImg}
                 alt="img"
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full object-cover rounded-xl"
               />
             </div>
             <div className="col-span-2">
@@ -64,8 +64,8 @@ const Destination = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-8">
-            <div className="col-span-3">
+          <div className="grid grid-cols-9 gap-3">
+            <div className="col-span-4">
               <img
                 src={BangladeshImg}
                 alt="img"
