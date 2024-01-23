@@ -1,0 +1,10 @@
+.active {
+    color: orange; /* Change the color to your desired active color */
+    font-weight: bold; /* Optionally, make the active link bold */
+  }
+  
+  /* Optional: Add hover styles for better user experience */
+  a:hover {
+    color: yellow; /* Change the color to your desired hover color */
+    text-decoration: underline; /* Underline the link on hover */
+  }
