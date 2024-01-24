@@ -21,9 +21,9 @@ const Destination = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-3">
-          <div className="grid grid-cols-2 gap-3">
-            <div className="col-span-1">
+        <div className="flex flex-col gap-5 ">
+          <div className="grid grid-cols-2 gap-5">
+            <div className="col-span-1 transform transition duration-300 hover:scale-105">
               <img
                 src={MaldivImg}
                 alt="img"
@@ -31,7 +31,7 @@ const Destination = () => {
               />
             </div>
 
-            <div className="col-span-1">
+            <div className="col-span-1 transform transition duration-300 hover:scale-105">
               <img
                 src={IndonesiaImg}
                 alt="img"
@@ -40,8 +40,8 @@ const Destination = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-9 gap-3">
-            <div className=" col-span-3">
+          <div className="grid grid-cols-9 gap-5 ">
+            <div className=" col-span-3 transform transition duration-300 hover:scale-105">
               <img
                 src={SrilankaImg}
                 alt="img"
@@ -49,14 +49,14 @@ const Destination = () => {
               />
             </div>
 
-            <div className="col-span-4">
+            <div className="col-span-4 transform transition duration-300 hover:scale-105">
               <img
                 src={NorthAmericaImg}
                 alt="img"
                 className="w-full object-cover rounded-xl"
               />
             </div>
-            <div className="col-span-2">
+            <div className="col-span-2 transform transition duration-300 hover:scale-105">
               <img
                 src={KashmirImg}
                 alt="img"
@@ -64,15 +64,15 @@ const Destination = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-9 gap-3">
-            <div className="col-span-4">
+          <div className="grid grid-cols-9 gap-5">
+            <div className="col-span-4 transform transition duration-300 hover:scale-105">
               <img
                 src={BangladeshImg}
                 alt="img"
                 className="w-full h-full object-cover rounded-xl"
               />
             </div>
-            <div className="col-span-5">
+            <div className="col-span-5 transform transition duration-300 hover:scale-105">
               <img
                 src={BandarbanImg}
                 alt="img"
