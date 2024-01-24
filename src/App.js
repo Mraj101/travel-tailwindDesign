@@ -2,8 +2,12 @@ import ChooseUs from "./components/ChooseUs";
 import Deals from "./components/Deals";
 import Destination from "./components/Destination";
 import Expolore from "./components/Expolore";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PopularTour from "./components/PopularTour";
+import SerrMore from "./components/SeeMore";
+import Subscribe from "./components/Subscribe";
+
 
 function App() {
   return (
@@ -15,7 +19,10 @@ function App() {
         <Destination/>
         <ChooseUs/>
         <Deals/>
+        <SerrMore/>
+        <Subscribe/>
       </div>
+      <Footer/>
     </>
   );
 }
