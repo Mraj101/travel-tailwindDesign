@@ -21,21 +21,21 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="md:p-6 md:px-16">
+      <nav className="md:p-6 md:px-16 font-mulish">
         <div className="flex items-center justify-between">
+          <div className='pl-12 flex  justify-center items-center gap-8'>
           <img src={HeroImg} alt="Hero" className="ml-10 md:ml-0" />
-
-          {/* Mobile Menu Button */}
+          <p className='text-4xl font-bold'><span className=' text-orange-500 t'>Hero </span>Travel</p>
+          </div>
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
               className="text-black focus:outline-none"
             >
-              ☰ {/* You can use any icon here */}
+              ☰ 
             </button>
           </div>
 
-          {/* Mobile Menu */}
           <ul
             className={`md:flex space-x-4 mr-20 gap-5 ${
               isMenuOpen ? 'block' : 'hidden'
