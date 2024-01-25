@@ -6,11 +6,13 @@ import GroupImg from "../assets/group.svg";
 import LocationImg from "../assets/location.svg";
 const Deals = () => {
   return (
-    <div className="p-12 font-mulish">
+    <div className="md:p-12 font-mulish">
       <div className="flex flex-col gap-8 justify-center items-center">
         <div className="flex items-center justify-center flex-col w-full gap-5">
-          <h1 className="text-5xl font-bold ">Deals & Discount</h1>
-          <p className="w-[75%] leading-6 text-center">
+          <h1 className="text-xl md:text:2xl lg:text-2xl xl:text-4xl 2xl:text-6xl font-bold ">
+            Deals & Discount
+          </h1>
+          <p className="md:w-[75%] leading-6 text-center">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
             dolorum ab consequuntur! Suscipit dolor exercitationem minima
             tempora error animi dolorem fugit distinctio quisquam ducimus
@@ -21,8 +23,8 @@ const Deals = () => {
 
         <div className="flex flex-col gap-8">
           <div className="relative w-full">
-            <div className="absolute top-0 left- w-full h-full bg-black opacity-10 border-2 border-red-500"></div>
-            <div className="w-[500px] p-6 rounded-lg top-10 right-16 bg-white absolute opacity-80 flex flex-col gap-5">
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10 border-2 border-red-500"></div>
+            <div className="w-52 md:w-[500px] p-6 rounded-lg top-10 left-20 md:right-16 bg-red-500 absolute opacity-80 flex flex-col gap-5">
               <div className="flex gap-4 w-full">
                 <div className="flex gap-1">
                   <img src={ClockImg} alt="img" />
@@ -50,7 +52,11 @@ const Deals = () => {
               </button>
             </div>
             {/* <div className=" w-[400px] h-72 rounded-xl top-20 border-2 bgco border-red-500 absolute bg-white opacity-50 right-28"></div> */}
-            <img className="w-full" src={UmbrellaImg} alt="img" />
+            <img
+              className="w-full h-96 md:h-auto object-cover "
+              src={UmbrellaImg}
+              alt="img"
+            />
           </div>
           <div className="relative w-full border">
             <div className="absolute top-0 left- w-full h-full bg-yellow-700 opacity-20 border-4 border-red-500"></div>
