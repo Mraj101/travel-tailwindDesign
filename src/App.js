@@ -13,7 +13,7 @@ function App() {
   return (
     <>
         <Navbar/>
-      <div class="mx-32 flex flex-col gap-10 border-">
+      <div class="mx-3 md:mx-28 lg:mx-32 xl:mx-28 2xl:mx-28 flex flex-col gap-10 border-">
         <Expolore/>
         <PopularTour/>
         <Destination/>
